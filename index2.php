@@ -7,40 +7,19 @@
 	 	echo "Привет $name, ";
 
 	 		switch($dayNumber){
-		 		case(1):
+		 		case(1): case(2): case(3): case(4): case(5):
 		 		echo "хорошего рабочего дня!";
 		 		break;
 
-		 		case(2):
-		 		echo "хорошего рабочего дня!";
-		 		break;
-
-		 		case(3):
-		 		echo "хорошего рабочего дня!";
-		 		break;
-
-		 		case(4):
-		 		echo "хорошего рабочего дня!";
-		 		break;
-
-		 		case(5):
-		 		echo "хорошего рабочего дня!";
-		 		break;
-
-		 		case(6):
+		 		case(6): case(7):
 		 		echo "хорошего выходного дня!";
 		 		break;
-
-		 		case(7):
-		 		echo "хорошего выходного дня!";
-		 		break;
-
 		 		default:
 		 		echo "странный день недели, даже не знаю чего пожелать :(";
 	 	}	 	
 	}
 
-	greeting('Лара', 1);
+	greeting('Лара', 6);
 
 	    echo "<br><br>";
 
@@ -61,5 +40,6 @@
 	}
 
 	greetingToo('Лара', 6);
+
 
  ?>
